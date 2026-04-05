@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "ADEYEMI TEMIDIRE AKINBISADE",
   title: "Data Analyst | Aspiring Data Scientist | AI Focus",
-  email: "a.akinbisade@gmail.com",
+  email: "a.akinbisade@ymail.com",
   phone: "+234 706 131 2276",
   location: "Open to international opportunities",
   github: "https://github.com/SirMarioWin",

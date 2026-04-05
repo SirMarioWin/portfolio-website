@@ -81,7 +81,7 @@ def generate_cv():
     elements.append(Paragraph("Data Analyst | Aspiring Data Scientist | AI Focus", title_style))
     
     # Contact Info
-    contact_info = "a.akinbisade@gmail.com | +234 706 131 2276 | github.com/SirMarioWin | Open to international opportunities"
+    contact_info = "a.akinbisade@ymail.com | +234 706 131 2276 | github.com/SirMarioWin | Open to international opportunities"
     elements.append(Paragraph(contact_info, body_style))
     elements.append(Spacer(1, 0.15*inch))
     
