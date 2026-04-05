@@ -3,6 +3,7 @@ export const personalInfo = {
   title: "Data Analyst | Aspiring Data Scientist | AI Focus",
   email: "a.akinbisade@ymail.com",
   phone: "+234 706 131 2276",
+  phoneVietnam: "+84 353886047",
   location: "Open to international opportunities",
   github: "https://github.com/SirMarioWin",
   summary: "Data-driven IT professional with 6+ years of experience in systems support, now specializing in Data Analytics and transitioning into Artificial Intelligence. Proven ability to analyze complex datasets, build dashboards, and optimize systems performance. Skilled in Python, SQL, Excel, and Power BI (DAX), with academic training in machine learning, big data analytics, and AI. Passionate about leveraging data to build intelligent systems and contribute to real-world impact."

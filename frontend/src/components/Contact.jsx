@@ -38,8 +38,21 @@ const Contact = () => {
                   <Phone className="text-white" size={24} />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-600 font-medium">Phone</p>
+                  <p className="text-sm text-gray-600 font-medium">Phone (Nigeria)</p>
                   <p className="text-gray-900 font-semibold">{personalInfo.phone}</p>
+                </div>
+              </a>
+              
+              <a
+                href={`tel:${personalInfo.phoneVietnam}`}
+                className="flex items-center gap-4 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
+              >
+                <div className="p-3 bg-green-600 rounded-lg group-hover:bg-green-700 transition-colors">
+                  <Phone className="text-white" size={24} />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600 font-medium">Phone (Vietnam)</p>
+                  <p className="text-gray-900 font-semibold">{personalInfo.phoneVietnam}</p>
                 </div>
               </a>
               
@@ -58,7 +71,7 @@ const Contact = () => {
                 </div>
               </a>
               
-              <div className="flex items-center gap-4 p-4 bg-orange-50 rounded-lg">
+              <div className="flex items-center gap-4 p-4 bg-orange-50 rounded-lg md:col-span-2">
                 <div className="p-3 bg-orange-600 rounded-lg">
                   <MapPin className="text-white" size={24} />
                 </div>
