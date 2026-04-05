@@ -90,7 +90,7 @@ def generate_cv():
     summary = """Data-driven IT professional with 6+ years of experience in systems support, now specializing in Data Analytics 
     and transitioning into Artificial Intelligence. Proven ability to analyze complex datasets, build dashboards, and optimize 
     systems performance. Skilled in Python, SQL, Excel, and Power BI (DAX), with academic training in machine learning, 
-    big data analytics, and AI. Passionate about leveraging data to drive intelligent decision-making and scalable solutions."""
+    big data analytics, and AI. Passionate about leveraging data to build intelligent systems and contribute to real-world impact."""
     elements.append(Paragraph(summary, body_style))
     elements.append(Spacer(1, 0.1*inch))
     

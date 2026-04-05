@@ -5,7 +5,7 @@ export const personalInfo = {
   phone: "+234 706 131 2276",
   location: "Open to international opportunities",
   github: "https://github.com/SirMarioWin",
-  summary: "Data-driven IT professional with 6+ years of experience in systems support, now specializing in Data Analytics and transitioning into Artificial Intelligence. Proven ability to analyze complex datasets, build dashboards, and optimize systems performance. Skilled in Python, SQL, Excel, and Power BI (DAX), with academic training in machine learning, big data analytics, and AI. Passionate about leveraging data to drive intelligent decision-making and scalable solutions."
+  summary: "Data-driven IT professional with 6+ years of experience in systems support, now specializing in Data Analytics and transitioning into Artificial Intelligence. Proven ability to analyze complex datasets, build dashboards, and optimize systems performance. Skilled in Python, SQL, Excel, and Power BI (DAX), with academic training in machine learning, big data analytics, and AI. Passionate about leveraging data to build intelligent systems and contribute to real-world impact."
 };
 
 export const skills = {

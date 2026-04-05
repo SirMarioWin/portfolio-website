@@ -11,3 +11,8 @@ html {
 .App {
     min-height: 100vh;
 }
+
+/* Hide Emergent watermark */
+#emergent-badge {
+    display: none !important;
+}
