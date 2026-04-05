@@ -81,7 +81,7 @@ def generate_cv():
     elements.append(Paragraph("Data Analyst | Aspiring Data Scientist | AI Focus", title_style))
     
     # Contact Info
-    contact_info = "a.akinbisade@gmail.com | +234 706 131 2276 | github.com/SirMarioWin | Nigeria"
+    contact_info = "a.akinbisade@gmail.com | +234 706 131 2276 | github.com/SirMarioWin | Open to international opportunities"
     elements.append(Paragraph(contact_info, body_style))
     elements.append(Spacer(1, 0.15*inch))
     
@@ -100,6 +100,7 @@ def generate_cv():
         ["<b>Programming:</b>", "Python, SQL"],
         ["<b>Data Tools:</b>", "Power BI (DAX), Excel (Advanced)"],
         ["<b>Data Analysis:</b>", "Pandas, Data Cleaning, Data Visualization"],
+        ["<b>Libraries & Tools:</b>", "NumPy, Scikit-learn, Matplotlib"],
         ["<b>Concepts:</b>", "Machine Learning, Statistics, AI Fundamentals"],
         ["<b>Systems:</b>", "IT Support, Networking, System Administration"]
     ]
@@ -114,12 +115,12 @@ def generate_cv():
     elements.append(Paragraph("<b>IT Support Specialist</b> | Pro Max IT Solutions | Feb 2017 – Aug 2023", job_title_style))
     
     achievements = [
-        "Diagnosed and resolved complex technical issues across systems, reducing downtime and improving operational efficiency",
-        "Managed IT infrastructure including hardware, software, and network systems for multiple users",
-        "Implemented and monitored data backup and recovery systems to ensure data integrity",
-        "Provided remote technical support, improving response time and user satisfaction",
-        "Strengthened system security through antivirus, firewall, and access control implementation",
-        "Maintained IT asset inventory and improved tracking efficiency"
+        "Analyzed system performance and user issues to identify recurring technical problems, reducing downtime by implementing data-driven solutions",
+        "Managed IT infrastructure and supported multiple users, ensuring system reliability and uptime through proactive monitoring",
+        "Implemented data backup and recovery processes, reducing risk of data loss and ensuring business continuity",
+        "Monitored system performance and provided insights for optimization and improved efficiency",
+        "Strengthened cybersecurity measures through antivirus, firewall, and access controls",
+        "Maintained IT asset records and improved tracking accuracy"
     ]
     
     for achievement in achievements:
@@ -139,14 +140,16 @@ def generate_cv():
     
     # Project 1
     elements.append(Paragraph("<b>Customer Churn Prediction</b>", job_title_style))
-    elements.append(Paragraph("Built a predictive model using Python (Pandas, Scikit-learn) to identify customer churn patterns. Performed data cleaning, feature engineering, and model evaluation. Improved prediction accuracy through model tuning.", body_style))
-    elements.append(Paragraph("<i>Technologies: Python, Pandas, Scikit-learn, Machine Learning</i>", body_style))
+    elements.append(Paragraph("Developed a machine learning model to predict customer churn using Python. Performed data cleaning, feature engineering, and model evaluation to identify at-risk customers and improve retention strategies.", body_style))
+    elements.append(Paragraph("<i>Technologies: Python, Pandas, Scikit-learn</i>", body_style))
+    elements.append(Paragraph("<i>GitHub: github.com/SirMarioWin/customer-churn-prediction</i>", body_style))
     elements.append(Spacer(1, 0.05*inch))
     
     # Project 2
     elements.append(Paragraph("<b>Sales Performance Dashboard</b>", job_title_style))
-    elements.append(Paragraph("Developed interactive dashboard using Power BI and DAX. Analyzed sales trends and KPIs to support decision-making. Created dynamic visualizations for business insights.", body_style))
-    elements.append(Paragraph("<i>Technologies: Power BI, DAX, Data Visualization</i>", body_style))
+    elements.append(Paragraph("Designed and developed an interactive Power BI dashboard to analyze sales trends and KPIs. Created dynamic visualizations to support data-driven decision-making for business insights.", body_style))
+    elements.append(Paragraph("<i>Technologies: Power BI, DAX</i>", body_style))
+    elements.append(Paragraph("<i>GitHub: github.com/SirMarioWin/sales-dashboard</i>", body_style))
     elements.append(Spacer(1, 0.1*inch))
     
     # Additional Strengths

@@ -27,6 +27,13 @@ const Skills = () => {
       bgColor: 'bg-purple-50'
     },
     {
+      title: 'Libraries & Tools',
+      icon: Code,
+      skills: skills.librariesTools,
+      color: 'text-indigo-600',
+      bgColor: 'bg-indigo-50'
+    },
+    {
       title: 'Concepts',
       icon: Brain,
       skills: skills.concepts,
